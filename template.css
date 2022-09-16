@@ -1,0 +1,382 @@
+*{
+    font-family: Arial;
+}
+body {margin: 0;
+      padding: 0; 
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display:flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    text-transform:uppercase; 
+    color: #888888;
+    font-family: Arial;
+}
+nav .active a, 
+nav a:hover {
+    background-color: #42b3e5;
+    color: #FFF;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.column {
+    flex-direction: column;
+}
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_headline h1 {
+    color:#FFF;
+    font-size: 70px;
+    text-shadow:0px 2px 0px #555555;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+}
+.banner_headline h2 {
+    color:#FFF;
+    font-size: 21px;
+    text-shadow:0px 1px 0px #555555;
+    margin: 0px;
+    padding: 0px;
+    max-width:350px;
+    margin-top: 30px;
+}
+.banner_options {
+    height: 210px;
+    display:flex;
+}
+
+.banner1, .banner2, .banner3 {
+    flex: 1;
+    color:#FFF;
+    padding: 20px;
+}
+.banner1 {
+    background-color: #39aae1;
+}
+.banner2 {
+    background-color: #0079c7;
+}
+.banner3 {
+    background-color: #2b4c99;
+}
+.banner_tittle {
+    font-size: 21px;
+}
+.banner_desc {
+    font-size:12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.banner_options a {
+    display: inline-block;
+    border:1px solid #FFF;
+    padding:5px;
+    color:#FFF;
+    font-size: 13px;
+    text-decoration: none;
+}
+.hourd {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(98, 159, 250, 0.267);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hourd .day, .hours {
+    font-size: 13px;
+}
+mark {
+    background-color: #09B2DE;
+    color: #000;
+}
+
+
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex:2;
+}
+#geral aside {
+    flex:1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar {
+    width:50px; 
+    height:2px;
+    background-color: #36a9e1;
+    margin-top: 12px;
+}
+.retangulodp {
+    display: flex;
+    height: 40px;
+    width: 330px;
+    background-color: #3156a3;
+    margin-top: 29px;
+    justify-content: space-between ;
+}
+.retangulo_text {
+    display: flex;
+    color: #FFF;
+    font-size: 16px;
+    margin: 13px;
+    
+}
+.quadrado {
+    width: 75px;
+    height: 75px;
+    background-color: #ACD2EB;
+    margin-top: 20px;
+}
+.ladoq {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.ladoq .prim_text {
+    margin-top: 38px;
+    color: #668787 ;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.text_botons {
+    width: 74px;
+    height: 30px;
+    background-color: #3156a3;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 2px;
+    
+}
+.text_botons2 {
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    background-color: #3156a3;
+    color: #FFF;
+    text-decoration: none;
+        
+}
+.botons {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+}
+.text_botons3 {
+    font-size: 10px;
+    text-decoration: none;
+    color: #FFF;
+    margin: 10px;
+    margin-top: 10px;
+}
+.menunamepri {
+    color:#666666;
+    line-height: 50px;
+
+}
+.menupri {
+    display: flex;
+    flex-direction: column;
+}
+.teste {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e0e0e0;
+
+}
+.teste a{
+    text-decoration: none;
+    font-size: 26px;
+}
+.text_make {
+    color: #666666;
+    font-size: 13px;
+    margin: 20px;
+    justify-content: start;
+}
+.widget_bodymake {
+    border-bottom: 3px solid #e0e0e0;
+    display: flex;
+
+}
+.text_make strong {
+    color: black;
+    font-weight: bold;
+}
+.qtel {
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.text_make2 {
+    color: #666666;
+    font-size: 13px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex:1;
+    min-width: 300px;
+}
+article a{
+    text-decoration: none;
+}
+article .news_data {
+    display: flex;
+}
+article .news_posted_at {
+    background-color: #3156a3;
+    color:#FFF;
+    font-size:12px;
+    padding: 12px;
+    margin-right: 2px;
+    
+}
+article .news_comments {
+    background-color: #42b3e5;
+    color:#FFF;
+    font-size:12px;
+    padding: 12px;
+}
+article .thumbnail{
+    margin-top: 30px;
+}
+article .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+article .news_title {
+    font-size: 23px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:#000
+}
+.news_resume {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 40px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;   
+}
+.footer_menu {
+    display: flex;
+
+}
+
+.fm1 , .fm2 , .fm3 {
+    color:#FFF;
+    flex:1;
+    padding: 20px;
+}
+.fm1 {
+    background-color: #39aae1;
+}
+.fm2 {
+    background-color: #0079c7;
+}
+.fm3 {
+    background-color: #2b4c99;
+}
+
+.footer_area {
+    display: flex;
+    color: #FFF;
+}
+.fa {
+    flex: 1;
+    color:#FFF
+}
+.flexcolumn {
+    flex-direction: column;
+}
+footer .widget_title_text {
+    color: #FFF
+}
+.copright {
+    border-top: solid 1px #353535;
+    color:#909090;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+    width: 990px;
+}
+
+.text_area5 {
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.text_barfooter {
+    color: #909090;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.text_barfooter2 {
+    color: #909090;
+    font-size: 15px;
+}
+.text_barfooter5 {
+    display: flex;
+    justify-content: space-between;
+}
